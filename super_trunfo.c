@@ -7,13 +7,13 @@ float inversoDensidade(float densidade) {
 
 int main() {
     // Definição das variáveis para armazenar as informações de duas cartas
-    char estado1, estado2;
-    char cartcode1[4], cartcode2[4];
-    char namecity1[30], namecity2[30];
+    char estado1, estado2; // Letra da carta
+    char cartcode1[4], cartcode2[4]; // Código da carta
+    char namecity1[30], namecity2[30]; // Nome da cidade
     unsigned long int pop1, pop2;  // População com valores grandes
-    float area1, area2;
-    float pib1, pib2;
-    int pt1, pt2;
+    float area1, area2; // Área da cidade
+    float pib1, pib2;  //PIB da cidade
+    int pt1, pt2; // Pontos turisticos da cidade 
     float dp1, dp2, pc1, pc2, sp1, sp2; // Densidade, PIB per capita, Super Poder
 
     printf("=== Cadastro de Cartas do Super Trunfo ===\n");
